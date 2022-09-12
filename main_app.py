@@ -15,8 +15,7 @@ tag=os.listdir(filepath)
 for p in tag:
     name =os.path.splitext(os.path.basename(p))[0]
     if(name!='.DS_Store'):
-        if(name!='creator'):
-            main_tag.append(name)
+    	main_tag.append(name)
 
 main_tag.sort()
 main_tag+=other
